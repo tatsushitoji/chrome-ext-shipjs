@@ -28,6 +28,7 @@ window.addEventListener("load", () => {
   mergePrContainer.classList.remove("is-rebasing");
   mergePrContainer.classList.add("is-squashing");
 
+  // TODO https://github.com/tatsushitoji/merge-button-for-shipjs/issues/1
   // 他のmerge方法を選べなくしておく(.details-resetを表示させない)
   mergePrContainer.classList.add("hide-details-reset");
 
